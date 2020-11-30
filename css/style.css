@@ -1,0 +1,36 @@
+body{
+  box-sizing: border-box;
+}
+.nav-link:hover{
+  text-decoration:underline;
+  text-decoration-color: white;
+}
+/* Welcome Section */
+#welcome{
+  height:70vh;
+  background: url(../images/backdrop.jpg) no-repeat center center/cover;
+  background-attachment: fixed;
+}
+#welcome .jumbotron{
+  background-color: rgba(255,255,255,0.4);
+}
+#welcome .row{
+  padding-top:15%;
+}
+
+/* Projects Section */
+#projects a{
+  text-decoration: none;
+  color: black;
+}
+#projects a:hover{
+  text-decoration: underline;
+  text-decoration-color: darkblue;
+  background-color: white;
+  color: black;
+  font-weight: 400;
+}
+
+#contact{
+  margin-bottom:5%;
+}
